@@ -134,7 +134,7 @@ const Shop = () => {
   const visibleBooks = books.slice(startIndex, startIndex + booksPerPage);
 
   return (
-    <div className="mt-28 px-4 lg:px-24">
+    <div className="mt-48 px-4 lg:px-24">
       <h2 className="text-5xl font-bold text-center">Danh mục sách</h2>
       <div className="row mb-3">
         {/* tìm theo tên sách */}
